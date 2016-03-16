@@ -61,7 +61,9 @@ class UserManager extends BaseUserManager
     }
 
     /**
-     * {@inheritDoc}
+     * Get the class repository from the object manager
+     * 
+     * @return \Doctrine\Common\Persistence\ObjectRepository
      */
     public function getRepository()
     {
